@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
           arrTo.push(json[key]);
         });
         arrTo.forEach(element => {
-          console.log(element)
+          // console.log(element)
           idAdvice.innerHTML = element.id 
           textAdvice.innerHTML = element.advice 
         });
